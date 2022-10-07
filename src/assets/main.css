@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .side-btn {
+    @apply w-20 h-20 cursor-pointer flex flex-col space-y-2 items-center justify-center text-gray-300 bg-myrp-light;
+  }
+}
